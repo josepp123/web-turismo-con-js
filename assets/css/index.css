@@ -1,0 +1,55 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ img {
+  width: 100%;
+} 
+.main{
+  background-image: url("../../assets/img/circles_background.png");
+/*como poner la imagen justo como el ejemplo*/
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+}
+.main__places-title{
+  color: #000000;
+  text-align: center;
+}
+.card{
+  background-color: blueviolet;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    border: 1px solid gray;
+}
+/* .card:hover{
+    background-color: #d3d3d4;
+    height: 320px;
+    width: 220px;
+} */
+.main__card-img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.container{
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* se organiza el contenido en base a sus hijos y el tamaño del mismo */
+  gap: 50px;/*ultima se estaba viendo el gap separacion de imagenes */
+    
+}
+.main__card-btn{
+  background-color:#43AA84 ;
+}
