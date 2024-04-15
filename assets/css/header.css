@@ -29,7 +29,7 @@
     text-decoration: none;
   }
   
-  .header__link:hover {
+  .header__link:hover {/*al estar encima el mouse aparecen detalles */
     text-decoration: underline;
   }
   

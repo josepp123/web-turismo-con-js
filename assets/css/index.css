@@ -20,13 +20,13 @@
   text-align: center;
 }
 .card{
-  background-color: blueviolet;
-    border-radius: 10px;
+  /* background-color: blueviolet; */
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     height: 400px;
     width: 400px;
-    border: 1px solid gray;
+    border: 1px ;
 }
 /* .card:hover{
     background-color: #d3d3d4;
@@ -41,15 +41,58 @@
 }
 
 .container{
-  padding: 15px;
+  padding: 80px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap; /* se organiza el contenido en base a sus hijos y el tamaño del mismo */
   gap: 50px;/*ultima se estaba viendo el gap separacion de imagenes */
-    
+  box-shadow: #000000;
 }
-.main__card-btn{
+.main__card-btn1{
   background-color:#43AA84 ;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+.main__card-btn2{
+  background-color:white ;
+  color: #43AA84;
+  border-color: #43AA84;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+  
+
+.container-btn{
+  display: flex; /* habilito a las propiedades de disposición=> flex direction, justify-content, align-items , gap */
+  flex-direction: row; /* direccion de sus hijos */
+  justify-content: space-around;
+}
+
+.text{
+  padding: 8px 12px;
+  margin-top: 20px;
+}
+#img{
+  width: 300px;
+	height: 600px;
+  object-fit: cover;
+	background-color: black;
+	border-radius: 10px;
+}
+.section{
+  padding: 80px;
+  display: flex;
+  flex-direction: co;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* se organiza el contenido en base a sus hijos y el tamaño del mismo */
+  gap: 50px;/*ultima se estaba viendo el gap separacion de imagenes */
+  box-shadow: #000000;
 }
