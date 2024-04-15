@@ -1,6 +1,10 @@
-.footer{
-    background-color: #202124;
-    display: grid;               /*esta parte sacada de youtue explicacion*/
-    min-height: 100vh;
-    grid-template-rows: auto 1fr auto;
- }
+footer{
+    margin-top: auto;
+    background-color: #082518;
+    display: flex;
+    flex-direction: column;
+    height: 95px;
+    color: #999da2;
+    font-size: 14px;
+
+}
